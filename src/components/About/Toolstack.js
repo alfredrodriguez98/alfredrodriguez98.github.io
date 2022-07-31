@@ -20,10 +20,10 @@ function Toolstack() {
         <SiSolidity />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiJenkins />
+        <SiEthereum />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSVmware />
+        <SiVmware />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSelenium />
@@ -32,7 +32,7 @@ function Toolstack() {
         <SiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiEthereum />
+        <SiJenkins />
       </Col>
     </Row>
   );
