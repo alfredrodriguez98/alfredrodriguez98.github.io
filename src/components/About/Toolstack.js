@@ -17,23 +17,22 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSelenium />
+        <SiSolidity />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiJenkins />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiSVmware />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiEthereum />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVmware />
+        <SiSelenium />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiEthereum />
       </Col>
     </Row>
   );
