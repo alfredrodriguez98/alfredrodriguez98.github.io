@@ -2,9 +2,12 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
-  SiPostman,
+  SiSolidity,
   SiJenkins,
+  SiVmware,
+  SiSelenium,
   SiDocker,
+  SiEthereum,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -14,10 +17,20 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiSelenium />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiJenkins />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSolidity />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiEthereum />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVmware />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
