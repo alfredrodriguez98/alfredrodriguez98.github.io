@@ -90,7 +90,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://dorkcompany.com/beware-read-this-before-buying-your-next-processor/"
+                href="https://alfred-explains.hashnode.dev/"
                 target="_blank"
                 rel="noreferrer"
               >
