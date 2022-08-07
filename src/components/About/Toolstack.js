@@ -8,6 +8,8 @@ import {
   SiSelenium,
   SiDocker,
   SiEthereum,
+  SiIpfs,
+  SiChainlink,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -21,6 +23,12 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiEthereum />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiIpfs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiChainlink />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVmware />
