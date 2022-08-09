@@ -19,7 +19,7 @@ function AboutCard() {
             experience from top MNCs.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Along with coding, here are some fun activities I love to do!
           </p>
           <ul>
             <li className="about-activity">
