@@ -2,9 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import emotion from "../../Assets/Projects/emotion.png";
+import emotion from "../../Assets/Projects/emotion.jpg";
 import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import leaf from "../../Assets/Projects/leaf.png";
+import crowdfunding from "../../Assets/Projects/crowdfunding.jpg";
+import nft from "../../Assets/Projects/nft.jpg";
 
 function Projects() {
   return (
@@ -22,9 +25,53 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Stacking Decentralized App"
-              description="Stacking DApp is a decentralized application that allows it's users to stack and earn interest. This platform allows only Tether token to stack."
+              title="Staking Decentralized App"
+              description="Staking DApp is a decentralized application that allows it's users to stack and earn interest. This platform allows only Tether token to stack. Stack: Solidity, Reactjs, Truffle, Remix, Ropsten Testnet, ERC20"
               ghLink="https://github.com/alfredrodriguez98/Stacking-Decentralized-App"
+              demoLink="https://remix.ethereum.org/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={crowdfunding}
+              isBlog={false}
+              title="Crowdfunding DApp"
+              description="It allows the contract owner to request funds for a certain purpose and return to the participants post completion/launch of services. Stack: Solidity, ERC20, Ropsten Testnet, Ganache, Hardhat"
+              ghLink="https://github.com/alfredrodriguez98/DApp-Crowdfunding"
+              demoLink="https://remix.ethereum.org/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Lottery DApp"
+              description="A fully transparent, decentralized lottery application providing fair chance of winning the lottery by selecting a truly random number using keccak256 secure hash algorithm. Stack: Solidity, ERC20, DeFi, Ropsten Testnet, Ganache, Hardhat"
+              ghLink="https://github.com/alfredrodriguez98/Dapp-Lottery"
+              demoLink="https://remix.ethereum.org/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nft}
+              isBlog={false}
+              title="MyNFT- DApp:"
+              description="Created my own unique NFT using Alchemy and stored files using IPFS. Stack: Solidity, ERC721, DeFi, web3.js, GoerliTestnet, Hardhat, IPFS"
+              ghLink="https://github.com/alfredrodriguez98/MyNFT"
+              demoLink="https://remix.ethereum.org/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={leaf}
+              isBlog={false}
+              title="Student Database Management-DApp"
+              description="It allows the contract owner to add and modify data of student records. The students can only view the data updated by the contract owner. Stack: Solidity, Remix, ERC20, Kovan Testnet"
+              ghLink="https://github.com/alfredrodriguez98/Dapp-Student-Management-System"
               demoLink="https://remix.ethereum.org/"
             />
           </Col>
