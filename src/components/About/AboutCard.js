@@ -15,7 +15,7 @@ function AboutCard() {
             </span>{" "}
             <span>Bengaluru.</span>
             <br />
-            I'm an aspiring BLockchain Developer with more than 1.5 years of IT
+            I'm an aspiring Blockchain Developer with more than 1.5 years of IT
             experience from top MNCs.
             <br />
             <br />
@@ -26,7 +26,7 @@ function AboutCard() {
               <ImPointRight /> Playing the piano
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Technical Blogs
+              <ImPointRight /> Creating technical blogs
             </li>
             <li className="about-activity">
               <ImPointRight /> Cooking new recipes
