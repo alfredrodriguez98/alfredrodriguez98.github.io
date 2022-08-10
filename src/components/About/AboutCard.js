@@ -34,7 +34,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Curiousity is visualizing the same concept in different dimensions"{" "}
+            "Curiosity is visualizing the same concept in different dimensions"{" "}
           </p>
           <footer className="blockquote-footer">Alfred Rodriguez</footer>
         </blockquote>
