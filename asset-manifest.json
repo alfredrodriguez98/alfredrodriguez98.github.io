@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.492a5c16.css",
-    "main.js": "/static/js/main.d1f64ebf.js",
+    "main.js": "/static/js/main.e9534bae.js",
     "static/js/415.fc063c41.chunk.js": "/static/js/415.fc063c41.chunk.js",
     "static/js/787.f6e65957.chunk.js": "/static/js/787.f6e65957.chunk.js",
     "static/media/chatify.png": "/static/media/chatify.370cd73a839bbbfa6ce8.png",
@@ -12,17 +12,17 @@
     "static/media/crowdfunding.jpg": "/static/media/crowdfunding.272fdc5494bae09bb70b.jpg",
     "static/media/blog.png": "/static/media/blog.7f880125adc6d5fd341f.png",
     "static/media/nft.jpg": "/static/media/nft.0619fb348ec89439b42a.jpg",
-    "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/someone.png": "/static/media/someone.e647f01f32a1c47eaab4.png",
     "static/media/emotion.jpg": "/static/media/emotion.9f0a15049fdaf7f5a972.jpg",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.492a5c16.css.map": "/static/css/main.492a5c16.css.map",
-    "main.d1f64ebf.js.map": "/static/js/main.d1f64ebf.js.map",
+    "main.e9534bae.js.map": "/static/js/main.e9534bae.js.map",
     "415.fc063c41.chunk.js.map": "/static/js/415.fc063c41.chunk.js.map",
     "787.f6e65957.chunk.js.map": "/static/js/787.f6e65957.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.492a5c16.css",
-    "static/js/main.d1f64ebf.js"
+    "static/js/main.e9534bae.js"
   ]
 }
