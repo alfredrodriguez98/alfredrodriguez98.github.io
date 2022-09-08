@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import emotion from "../../Assets/Projects/emotion.jpg";
 import chatify from "../../Assets/Projects/chatify.png";
+import homepage from "../../Assets/Projects/homepage.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import leaf from "../../Assets/Projects/leaf.png";
 import crowdfunding from "../../Assets/Projects/crowdfunding.jpg";
@@ -21,6 +22,17 @@ function Projects() {
           Here are a few projects I've worked on to solve a real life problem.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={homepage}
+              isBlog={false}
+              title="Wallet Integration"
+              description="Krypt is a decentralized application that allows it's users to integrate their metamask crypto wallets to the front-end website. This platform allows users to transact anonymously and displays a list of recent transactions from the linked metamask account. Stack: Solidity, Reactjs, Hardhat, Goerli Testnet, ERC20"
+              ghLink="https://github.com/alfredrodriguez98/Krypt-Wallet-Integration"
+              demoLink="https://remix.ethereum.org/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
