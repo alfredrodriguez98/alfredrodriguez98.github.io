@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import emotion from "../../Assets/Projects/emotion.jpg";
 import chatify from "../../Assets/Projects/chatify.png";
-import homepage from "../../Assets/Projects/homepage.png";
+import page from "../../Assets/Projects/page.PNG";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import leaf from "../../Assets/Projects/leaf.png";
 import crowdfunding from "../../Assets/Projects/crowdfunding.jpg";
@@ -24,7 +24,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={homepage}
+              imgPath={page}
               isBlog={false}
               title="Wallet Integration"
               description="Krypt is a decentralized application that allows it's users to integrate their metamask crypto wallets to the front-end website. This platform allows users to transact anonymously and displays a list of recent transactions from the linked metamask account. Stack: Solidity, Reactjs, Hardhat, Goerli Testnet, ERC20"
