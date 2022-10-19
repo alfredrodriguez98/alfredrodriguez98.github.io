@@ -8,6 +8,7 @@ import page from "../../Assets/Projects/page.PNG";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import leaf from "../../Assets/Projects/leaf.png";
 import crowdfunding from "../../Assets/Projects/crowdfunding.jpg";
+import simulator from "../../Assets/Projects/simulator.jpg";
 import nft from "../../Assets/Projects/nft.jpg";
 
 function Projects() {
@@ -30,6 +31,18 @@ function Projects() {
               description="Krypt is a decentralized application that allows it's users to integrate their metamask crypto wallets to the front-end website. This platform allows users to transact anonymously and displays a list of recent transactions from the linked metamask account. Stack: Solidity, Reactjs, Hardhat, Goerli Testnet, ERC20"
               ghLink="https://github.com/alfredrodriguez98/Krypt-Wallet-Integration"
               demoLink="https://remix.ethereum.org/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={simulator}
+              isBlog={false}
+              title="Blockchain Simulator"
+              description="Simulated the complete working of a blockchain network right from the Genesis block, block mining, blockchain creation, nonce, mining rate, difficulty adjustment, broadcasting data among nodes, syncing all nodes can be visualized completely in the backend environment on terminal. A user can also add blocks by embedded own data using Postman client as well. Stack: JavaScript, Node.js, Postman, Express.js, Redis server
+"
+              ghLink="https://github.com/alfredrodriguez98/Blockchain-Simulation"
+              demoLink="https://www.postman.com/downloads/"
             />
           </Col>
 
