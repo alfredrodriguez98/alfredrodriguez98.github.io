@@ -36,6 +36,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={page}
+              isBlog={false}
+              title="Nodebook DApp"
+              description="Nodebook DApp is a decentralized chatting application across multiple nodes added into the friend-list by the user. This platform allows users to interact anonymously with sudo nikenames and displays a list of friend lists linked to the user account. Stack: Solidity, Reactjs, Hardhat, Goerli Testnet, ERC20"
+              ghLink="https://github.com/alfredrodriguez98/nodebook_dapp"
+              demoLink="https://remix.ethereum.org/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={simulator}
               isBlog={false}
               title="Blockchain Simulator"
