@@ -3,7 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import emotion from "../../Assets/Projects/emotion.jpg";
-import chatify from "../../Assets/Projects/chatify.png";
+import dex from "../../Assets/Projects/dex.jpg";
+import nodebook from "../../Assets/Projects/nodebook.png";
+import p2p from "../../Assets/Projects/p2p.jpg";
 import page from "../../Assets/Projects/page.PNG";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import leaf from "../../Assets/Projects/leaf.png";
@@ -36,7 +38,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={page}
+              imgPath={nodebook}
               isBlog={false}
               title="Nodebook DApp"
               description="Nodebook DApp is a decentralized chatting application across multiple nodes added into the friend-list by the user. This platform allows users to interact anonymously with sudo nikenames and displays a list of friend lists linked to the user account. Stack: Solidity, Reactjs, Hardhat, Goerli Testnet, ERC20"
@@ -59,12 +61,19 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={p2p}
               isBlog={false}
-              title="Staking Decentralized App"
-              description="Staking DApp is a decentralized application that allows it's users to stack and earn interest. This platform allows only Tether token to stack. Stack: Solidity, Reactjs, Truffle, Remix, Ropsten Testnet, ERC20"
-              ghLink="https://github.com/alfredrodriguez98/Stacking-Decentralized-App"
-              demoLink="https://remix.ethereum.org/"
+              title="P2P Lending Decentralized App"
+              description="P2P Lending is a decentralized application that allows it's users to lend and borrow funds across peers. This platform allows user to deposit/withdraw collateral staked within the platform. The user can request for a loan for 80% of the collateral value deposited within the platform. Stack: Solidity, Goerli Testnet, Hardhat, ERC20"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dex}
+              isBlog={false}
+              title="DEX"
+              description="Decentralized Crypto currency exchange intends to swap two different crypto currencies at the best market price with minimum slippage as possible. Stack: Solidity, Goerli Testnet, Hardhat, ERC20"
             />
           </Col>
 
