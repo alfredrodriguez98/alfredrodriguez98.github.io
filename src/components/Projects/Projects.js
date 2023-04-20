@@ -65,6 +65,8 @@ function Projects() {
               isBlog={false}
               title="P2P Lending Decentralized App"
               description="P2P Lending is a decentralized application that allows it's users to lend and borrow funds across peers. This platform allows user to deposit/withdraw collateral staked within the platform. The user can request for a loan for 80% of the collateral value deposited within the platform. Stack: Solidity, Goerli Testnet, Hardhat, ERC20"
+              ghLink="https://github.com/alfredrodriguez98/"
+              demoLink="https://remix.ethereum.org/"
             />
           </Col>
 
@@ -121,7 +123,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
@@ -130,7 +132,7 @@ function Projects() {
               ghLink="https://github.com/alfredrodriguez98/Saviour_Android_Geofencing_App"
               demoLink=""
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
