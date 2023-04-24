@@ -1,30 +1,32 @@
 {
   "files": {
     "main.css": "/static/css/main.52efd4d4.css",
-    "main.js": "/static/js/main.8b4e790b.js",
+    "main.js": "/static/js/main.e46a9948.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/chatify.png": "/static/media/chatify.370cd73a839bbbfa6ce8.png",
     "static/media/simulator.jpg": "/static/media/simulator.ff85a11fe909859a386b.jpg",
     "static/media/leaf.png": "/static/media/leaf.7d6cf821690e7c40b836.png",
+    "static/media/nodebook.png": "/static/media/nodebook.8df8cf2e7985259bcc6a.png",
     "static/media/page.PNG": "/static/media/page.e2abbc57ff5d4e4a2c98.PNG",
     "static/media/about.png": "/static/media/about.9faa3362e2aba5412d79.png",
     "static/media/crowdfunding.jpg": "/static/media/crowdfunding.272fdc5494bae09bb70b.jpg",
     "static/media/avatar.png": "/static/media/avatar.b58767dadbd2c685ebca.png",
+    "static/media/p2p.jpg": "/static/media/p2p.44f5321ec61c7ec00017.jpg",
     "static/media/home-bg.jpg": "/static/media/home-bg.9f4684f5adbafe97b7da.jpg",
     "static/media/blog.png": "/static/media/blog.7f880125adc6d5fd341f.png",
     "static/media/nft.jpg": "/static/media/nft.0619fb348ec89439b42a.jpg",
     "static/media/someone.png": "/static/media/someone.e647f01f32a1c47eaab4.png",
+    "static/media/dex.jpg": "/static/media/dex.cbe2f668d53922374fec.jpg",
     "static/media/emotion.jpg": "/static/media/emotion.9f0a15049fdaf7f5a972.jpg",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.52efd4d4.css.map": "/static/css/main.52efd4d4.css.map",
-    "main.8b4e790b.js.map": "/static/js/main.8b4e790b.js.map",
+    "main.e46a9948.js.map": "/static/js/main.e46a9948.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.52efd4d4.css",
-    "static/js/main.8b4e790b.js"
+    "static/js/main.e46a9948.js"
   ]
 }
