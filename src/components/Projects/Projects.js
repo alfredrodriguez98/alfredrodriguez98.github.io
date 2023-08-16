@@ -6,6 +6,7 @@ import emotion from "../../Assets/Projects/emotion.jpg";
 import dex from "../../Assets/Projects/dex.jpg";
 import nodebook from "../../Assets/Projects/nodebook.png";
 import p2p from "../../Assets/Projects/p2p.jpg";
+import ecommerce from "../../Assets/Projects/ecommerce.jpg";
 import page from "../../Assets/Projects/page.PNG";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import leaf from "../../Assets/Projects/leaf.png";
@@ -75,7 +76,16 @@ function Projects() {
               imgPath={dex}
               isBlog={false}
               title="DEX"
-              description="Decentralized Crypto currency exchange intends to swap two different crypto currencies at the best market price with minimum slippage as possible. Stack: Solidity, Goerli Testnet, Hardhat, ERC20"
+              description="Decentralized Crypto currency exchange intends to swap two different crypto currencies at the best market price with minimum slippage as possible. Stack: Solidity, Polygon Mumbai Testnet, Hardhat, ERC20"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ecommerce}
+              isBlog={false}
+              title="ECommerce Order Tracking"
+              description="The smart contract handles all the order tracking information onchain with real time updates regarding the order status and other vital information. Stack: Solidity, Sepolia Testnet, Hardhat, ERC20"
             />
           </Col>
 
